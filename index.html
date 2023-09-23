@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Student Portal</a>
+        </div>
+    </nav>
+
+    <form class="d-flex p-4 px-5">
+        <input id="searchbox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchButton" class="btn btn-dark px-5" type="submit">Search</button>
+      </form>
+
+<div class="butn">
+    <button id="sortAsc" class="px-4 ">Sort A->Z</button>
+    <button id="sortDesc" class="px-4 ">Sort Z->A</button>
+    <button id="sortByMarks" class="px-4 ">Sort By Marks</button>
+    <button id="sortByPassing" class="px-4 ">Sort By Passing</button>
+    <button id="sortByClass" class="px-4 ">Sort By Class</button>
+    <button id="sortByGender" class="px-4 ">Sort By Gender</button>
+</div>
+
+
+<table class="table table-bordered border-dark">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Class</th>
+        <th>Marks</th>
+        <th>Passing</th>
+        <th>Email</th>
+    </tr>
+    <tbody>
+
+    </tbody>    
+</table>
+    
+    
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
